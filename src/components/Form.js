@@ -14,7 +14,7 @@ const Form = () => {
     dispatch,
   } = React.useContext(Store);
   return (
-    <div className='container login-form'>
+    <div className='container setup-form'>
       <h3>BOARD CONFIGURATION</h3>
       <form onSubmit={() => console.log('submit')}>
         <label>X Grid Size</label>
@@ -43,8 +43,6 @@ const Form = () => {
           onChange={(e) => modifyStepSize(dispatch, parseInt(e.target.value))}
           placeholder='Nº of Steps'
         />
-
-        <input className='login-submit' type='submit' />
       </form>
     </div>
   );

@@ -1,4 +1,4 @@
-.login-form {
+.setup-form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,10 +23,6 @@
     }
     input:focus {
       outline: none;
-    }
-    .login-submit {
-      background-color: #c9a216;
-      color: #fff;
     }
   }
 }
